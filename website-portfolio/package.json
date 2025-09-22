@@ -1,12 +1,9 @@
 {
-  "homepage": "https://manakura.github.io/Portfolio-Site",
-  "name": "Portfolio-Site",
+  "name": "portfolio-site",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
